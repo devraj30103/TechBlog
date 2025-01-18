@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark primary-background">
-    <a class="navbar-brand" href="#"><span class ="fa fa-asterisk"> </span>Tech Blog</a>
+    <a class="navbar-brand" href="index.jsp"><span class ="fa fa-asterisk"> </span>Tech Blog</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -28,7 +28,7 @@
            <a class="nav-link" href="login_page.jsp"><span class="fa fa-address-book"></span>Login</a>
       </li>
       <li class="nav-item">
-           <a class="nav-link" href="register_page.jsp"><span class="fa fa-user-plus"></span>Login</a>
+           <a class="nav-link" href="register_page.jsp"><span class="fa fa-user-plus"></span>Sing Up</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
