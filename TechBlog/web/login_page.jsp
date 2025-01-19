@@ -33,21 +33,19 @@ clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 80% 95%, 50% 100%, 20% 9
                                 <p>Login here</p>
                             </div>
                             <div class="card-body">
-                                <form>
+                                <form action="LoginServlet" method="post">
                                   <div class="form-group">
                                     <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <input name="email" required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                                   </div>
                                   <div class="form-group">
                                     <label for="exampleInputPassword1">Password</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    <input name="password" required type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                   </div>
-                                  <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                  </div>
-                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                    <div class="container text-center">
+                                      <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
                             </form>
                             </div>
                         </div>
@@ -57,7 +55,8 @@ clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 100%, 80% 95%, 50% 100%, 20% 9
             </div>
         </main>
         
-           <!-- JavaScripts -->
+          
+        <!-- JavaScripts -->
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
                 integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
